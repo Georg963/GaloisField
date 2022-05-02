@@ -1,2 +1,2 @@
 # GaloisField
-GaloisField.py
+implementation of galois field with python
