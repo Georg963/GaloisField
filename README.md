@@ -1,6 +1,6 @@
 # Galois Field
 
-## modular polynomals
+## modular polynomals GF(2²) - GF(2¹²)
 ```
 111
 1011
