@@ -24,33 +24,33 @@ GF
 >>> GF(2³)
 ```
 
-## polynomial representation
+### polynomial representation
 
 ```
 GF.modPol_pr()
 >>> α³ + α¹ + α⁰
 ```
-## vector representation
+### vector representation
 
 ```
 GF.modPol_vr()
 >>> 1011
 ```
 
-## alpha elements
+### alpha elements
 ```
 alphas = GF.getElements()
 alphas
 >>> [001, 010, 100, 011, 110, 111, 101]
 ```
 
-## vector representation
+### vector representation
 ```
 alphas[1]
 >>> 010
 ```
 
-## polynomial representation
+### polynomial representation
 ```
 alphas[1].getAlpha()
 >>> α¹
@@ -58,31 +58,31 @@ alphas[1].getAlpha()
 
 ## operations
 
-## 1. addition
+### 1. addition
 ```
 alphas[0] + alphas[1]
 >>> 011
 ```
 
-## 2. multiplication
+### 2. multiplication
 ```
 alphas[1] * alphas[2]
 >>> 011
 ```
 
-## 3. inverse
+### 3. inverse
 ```
 - alphas[1]
 >>> 101
 ```
 
-## 4. division
+### 4. division
 ```
 alphas[5] / alphas[2]
 >>> 011
 ```
 
-## 5. exponent
+### 5. exponent
 ```
 alphas[2] ** 3
 >>> 101
