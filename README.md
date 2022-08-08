@@ -21,7 +21,7 @@ from GaloisField import gf
 
 #construction of Galois Field GF(2³)
 m = 3
-GF
+GF = gf(m)
 >>> GF(2³)
 ```
 
